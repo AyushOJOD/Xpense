@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web/pages/conatiners/conatiner2.dart';
 import 'package:flutter_web/pages/conatiners/container1.dart';
+import 'package:flutter_web/pages/conatiners/container3.dart';
+import 'package:flutter_web/pages/conatiners/container4.dart';
+import 'package:flutter_web/pages/conatiners/container5.dart';
 import 'package:flutter_web/utils/constants.dart';
 import 'package:flutter_web/widgets/navbar.dart';
 
@@ -20,7 +23,14 @@ class _HomePageState extends State<HomePage> {
       body: SingleChildScrollView(
           child: Container(
         child: Column(
-          children: [NavBar(), Container1(), Container2()],
+          children: [
+            NavBar(),
+            Container1(),
+            Container2(),
+            Container3(),
+            Container4(),
+            Container5()
+          ],
         ),
       )),
     );
